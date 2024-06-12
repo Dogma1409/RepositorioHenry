@@ -1,49 +1,40 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="stylectc.css">
+    <title>Formulario de Contacto</title>
 </head>
 
 <body>
     <main>
-        <header>
-            <h1>Este es el formulario de contacro</h1>
+        <header class="main-header">
+            <h1>Este es el formulario de contacto</h1>
         </header>
-        <div>
+        <div class="intro">
             <h2>Este es un formulario para que puedas contactarnos</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus possimus beatae facere molestias
-                magni placeat voluptas provident laboriosam cupiditate tempore, nesciunt odit mollitia aspernatur
-                eveniet vero dolores laborum autem voluptate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus possimus beatae facere molestias magni placeat voluptas provident laboriosam cupiditate tempore, nesciunt odit mollitia aspernatur eveniet vero dolores laborum autem voluptate.</p>
         </div>
-            <form action="">
-
-                <div>
-                    <input type="text" name="Nombre" placeholder="Nombre">
-                </div>
-
-                <div>
-                    <input type="text" name="Apellido" placeholder="Apellido">
-                </div>
-
-                <div>
-                    <input type="text" name="Edad" placeholder="Edad">
-                </div>
-
-                <div>
-                    <input type="text" name="Contraseña" placeholder="Contraseña">
-                </div>
-
-                <div>
-                    <button>ENVIAR</button>
-                </div>
-            </form>
-
-
-
-
+        <form action="">
+            <div class="form-group">
+                <input type="text" name="Nombre" placeholder="Nombre">
+            </div>
+            <div class="form-group">
+                <input type="text" name="Apellido" placeholder="Apellido">
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="tuemail@dominio.com">
+            </div>
+            <div class="form-group">
+                <input type="text" name="text" placeholder="Déjanos tu mensaje">
+            </div>
+            <div class="form-group">
+                <button type="submit">ENVIAR</button>
+            </div>
+        </form>
     </main>
 </body>
 
